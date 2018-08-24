@@ -1,8 +1,10 @@
 /*
-* Orson http://en.orson.io , autreplanete http://www.autreplanete.com/ 
-*  
+* Orson http://en.orson.io , autreplanete http://www.autreplanete.com/
+*
 **/
 
+
+@import "node_modules/bootstrap/scss/bootstrap";
 
 // Brand Colors
 $blue: #1a3c56;
@@ -545,3 +547,33 @@ $enable-transitions: true;
 $enable-hover-media-query: false;
 $enable-grid-classes: true;
 $enable-print-styles: true;
+
+
+// Custom CSS
+
+.bg-darkblue{
+    background-color: theme-color('primary');
+}
+
+.btn-paypal{
+//    background: url('https://www.seeklogo.net/wp-content/uploads/2016/09/paypal-logo-preview.png') no-repeat #ffa500;
+}
+
+.logo-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 12;
+    font-family: 'Electrolize', sans-serif;
+    text-align: center;
+    h1{
+        font-size: 8em;
+        -webkit-text-stroke: 1px gray;
+        color: darkgray;
+    }
+    p{
+        font-weight:bold;
+        font-family: 'Open Sans', sans-serif;
+    }
+}

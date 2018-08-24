@@ -1,0 +1,25 @@
+{
+  "name": "hmc-colours",
+  "version": "1.0.0",
+  "description": "Hellenic Milsim theme",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  },
+  "devDependencies": {
+	  "scss": "^0.2.4"
+  },
+  "scripts": {
+	  "compile": "sass custom.scss build/hmc-theme.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HellenicMilsim/hmc-colours.git"
+  },
+  "author": "aklin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HellenicMilsim/hmc-colours/issues"
+  },
+  "homepage": "https://github.com/HellenicMilsim/hmc-colours#readme"
+}
