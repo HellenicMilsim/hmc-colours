@@ -5,6 +5,7 @@
 
 
 @import "node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Electrolize|Open+Sans|Jura');
 
 // Brand Colors
 $blue: #1a3c56;
@@ -41,9 +42,9 @@ $sizes: (25: 25%, 50: 50%, 75: 75%, 100: 100%);
 
 
 // Options
-$enable-rounded: true;
+$enable-rounded: false;
 $enable-shadows: false;
-$enable-gradients: false;
+$enable-gradients: true;
 $enable-transitions: true;
 $enable-hover-media-query: false;
 $enable-grid-classes: true;
@@ -56,7 +57,7 @@ $body-color: $gray-900;
 
 
 // Links
-$link-color: theme-color('primary');
+$link-color: theme-color('info');
 $link-decoration: none;
 $link-hover-color: darken($link-color, 15%);
 $link-hover-decoration: underline;
@@ -102,7 +103,7 @@ $h4-font-size: 1.5rem;
 $h5-font-size: 1.25rem;
 $h6-font-size: 1rem;
 $headings-margin-bottom: ($spacer / 2);
-$headings-font-family: inherit;
+$headings-font-family: 'Jura', sans-serif;
 $headings-font-weight: 500;
 $headings-line-height: 1.2;
 $headings-color: inherit;
@@ -550,7 +551,6 @@ $enable-print-styles: true;
 
 
 // Custom CSS
-@import url('https://fonts.googleapis.com/css?family=Electrolize|Open+Sans');
 .bg-darkblue{
     background-color: theme-color('primary');
 }
